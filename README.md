@@ -1,8 +1,5 @@
 # Kuppannagari Mahendra Aravind
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=800&lines=Java+Developer+%7C+Backend+Engineer;Building+Scalable+Backend+Systems;AI+Engineering+%7C+RAG+%7C+LLM+Applications;Spring+Boot+%7C+FastAPI+%7C+Distributed+Systems" />
-</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mahendra-aravind-128a0a28a/">
