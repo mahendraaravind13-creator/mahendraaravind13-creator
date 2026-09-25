@@ -51,13 +51,6 @@
 
 <img src="./assets/stack.svg" width="100%" alt="Tech stack"/>
 
-<img src="./assets/h-telemetry.svg" width="100%"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mahendraaravind13-creator&show_icons=true&hide_border=true&bg_color=0b0620&title_color=00F5FF&icon_color=FF2BD6&text_color=ece9ff&include_all_commits=true&count_private=true&rank_icon=github"/>
-<img height="165" src="https://streak-stats.demolab.com?user=mahendraaravind13-creator&hide_border=true&background=0B0620&ring=00F5FF&fire=FF2BD6&currStreakLabel=00F5FF&sideLabels=A8A4D4&dates=6A6594&currStreakNum=ECE9FF&sideNums=ECE9FF&stroke=8B5CF6"/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mahendraaravind13-creator&bg_color=0b0620&color=a8a4d4&line=00f5ff&point=ff2bd6&area=true&area_color=8b5cf6&hide_border=true&custom_title=COMMIT%20SIGNAL"/>
-
 <img src="./assets/h-log.svg" width="100%"/>
 <img src="./assets/timeline.svg" width="100%" alt="Achievements"/>
 
