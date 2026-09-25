@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:.9}}
+.fade{}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9z" fill="#8c959f"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="219" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<path d="M100 82H1100" stroke="#d0d7de" stroke-width="2"/>
+<g class="fade" style="animation-delay:0.00s">
+<text x="100.0" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >2023</text>
+<circle cx="100.0" cy="82" r="7" fill="#ffffff" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="100.0" cy="82" r="2.5" fill="#0969da"/>
+<text x="100.0" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >JEE Main</text>
+<text x="100.0" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >96.7 percentile</text>
+</g>
+<g class="fade" style="animation-delay:0.08s">
+<text x="266.7" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >2023 – 2027</text>
+<circle cx="266.7" cy="82" r="7" fill="#ffffff" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="266.7" cy="82" r="2.5" fill="#0969da"/>
+<text x="266.7" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >LNMIIT Jaipur</text>
+<text x="266.7" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >B.Tech CCE</text>
+<text x="266.7" y="161" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >Class of 2027</text>
+</g>
+<g class="fade" style="animation-delay:0.16s">
+<text x="433.3" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >Research</text>
+<circle cx="433.3" cy="82" r="7" fill="#ffffff" stroke="#1b7c83" stroke-width="2.5"/>
+<circle cx="433.3" cy="82" r="2.5" fill="#1b7c83"/>
+<text x="433.3" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >Research intern</text>
+<text x="433.3" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >UAV ISAC scheduling</text>
+<text x="433.3" y="161" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >IEEE VTC manuscript</text>
+</g>
+<g class="fade" style="animation-delay:0.24s">
+<text x="600.0" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >Jan – May 2026</text>
+<circle cx="600.0" cy="82" r="7" fill="#ffffff" stroke="#8250df" stroke-width="2.5"/>
+<circle cx="600.0" cy="82" r="2.5" fill="#8250df"/>
+<text x="600.0" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >Teaching assistant</text>
+<text x="600.0" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >AI &amp; ML labs</text>
+<text x="600.0" y="161" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >80+ students mentored</text>
+</g>
+<g class="fade" style="animation-delay:0.32s">
+<text x="766.7" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >2026</text>
+<circle cx="766.7" cy="82" r="7" fill="#ffffff" stroke="#9a6700" stroke-width="2.5"/>
+<circle cx="766.7" cy="82" r="2.5" fill="#9a6700"/>
+<text x="766.7" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >ET AI Hackathon 2.0</text>
+<text x="766.7" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >Finalist</text>
+<text x="766.7" y="161" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >with Project Atlas</text>
+</g>
+<g class="fade" style="animation-delay:0.40s">
+<text x="933.3" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >2026</text>
+<circle cx="933.3" cy="82" r="7" fill="#ffffff" stroke="#8250df" stroke-width="2.5"/>
+<circle cx="933.3" cy="82" r="2.5" fill="#8250df"/>
+<text x="933.3" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >Anthropic Academy</text>
+<text x="933.3" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >Claude 101</text>
+<text x="933.3" y="161" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >certification</text>
+</g>
+<g class="fade" style="animation-delay:0.48s">
+<text x="1100.0" y="60" class="s" font-size="12" fill="#6e7781" text-anchor="middle" font-weight="600" letter-spacing="0" >Ongoing</text>
+<circle cx="1100.0" cy="82" r="7" fill="#ffffff" stroke="#1a7f37" stroke-width="2.5"/>
+<circle cx="1100.0" cy="82" r="2.5" fill="#1a7f37"/>
+<text x="1100.0" y="120" class="s" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="600" letter-spacing="0" >LeetCode</text>
+<text x="1100.0" y="142" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >1,000+ problems</text>
+<text x="1100.0" y="161" class="s" font-size="13" fill="#59636e" text-anchor="middle" font-weight="400" letter-spacing="0" >Rating 1,850+</text>
+</g>
+</svg>

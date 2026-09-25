@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:.9}}
+.fade{}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L9 5L0 9z" fill="#8c959f"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="329" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<text x="48" y="82" class="s" font-size="13" fill="#0969da" text-anchor="start" font-weight="600" letter-spacing="1.2" >FULL-STACK ENGINEER  ·  APPLIED AI SYSTEMS</text>
+<text x="48" y="134" font-size="40" fill="#1f2328" text-anchor="start" font-weight="700" letter-spacing="0" class="s fade">Kuppannagari Mahendra Aravind</text>
+<text x="48" y="180" class="s" font-size="18" fill="#59636e" text-anchor="start" font-weight="400" letter-spacing="0" >I build reliable backend systems and grounded AI products,</text>
+<text x="48" y="206" class="s" font-size="18" fill="#59636e" text-anchor="start" font-weight="400" letter-spacing="0" >and ship them to production.</text>
+<rect x="48" y="248" width="164" height="28" rx="14" fill="#eff2f5" stroke="#d0d7de"/><circle cx="63" cy="262" r="4" fill="#1a7f37"/><circle cx="63" cy="262" r="8" fill="#1a7f37" class="pulse"/><text x="74" y="266.5" class="s" font-size="13" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >Open to SDE roles</text>
+<rect x="221.76" y="248" width="261" height="28" rx="14" fill="#eff2f5" stroke="#d0d7de"/><text x="235.76" y="266.5" class="s" font-size="13" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >LNMIIT Jaipur · B.Tech CCE, 2027</text>
+<rect x="492.72" y="248" width="64" height="28" rx="14" fill="#eff2f5" stroke="#d0d7de"/><text x="506.72" y="266.5" class="s" font-size="13" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >India</text>
+<rect x="800" y="32" width="368" height="266" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<g class="fade" style="animation-delay:0.1s">
+<text x="824" y="70" class="s" font-size="11" fill="#6e7781" text-anchor="start" font-weight="600" letter-spacing="1.2" >FOCUS</text>
+<text x="824" y="92" class="s" font-size="14" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >Backend · Distributed systems · Applied AI</text>
+</g>
+<path d="M824 108H1144" stroke="#d0d7de"/>
+<g class="fade" style="animation-delay:0.2s">
+<text x="824" y="132" class="s" font-size="11" fill="#6e7781" text-anchor="start" font-weight="600" letter-spacing="1.2" >SHIPPED</text>
+<text x="824" y="154" class="s" font-size="14" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >2 production apps live on AWS</text>
+</g>
+<path d="M824 170H1144" stroke="#d0d7de"/>
+<g class="fade" style="animation-delay:0.3s">
+<text x="824" y="194" class="s" font-size="11" fill="#6e7781" text-anchor="start" font-weight="600" letter-spacing="1.2" >RESEARCH</text>
+<text x="824" y="216" class="s" font-size="14" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >UAV scheduling · IEEE VTC manuscript</text>
+</g>
+<path d="M824 232H1144" stroke="#d0d7de"/>
+<g class="fade" style="animation-delay:0.4s">
+<text x="824" y="256" class="s" font-size="11" fill="#6e7781" text-anchor="start" font-weight="600" letter-spacing="1.2" >RECOGNITION</text>
+<text x="824" y="278" class="s" font-size="14" fill="#1f2328" text-anchor="start" font-weight="500" letter-spacing="0" >Finalist, ET AI Hackathon 2.0</text>
+</g>
+</svg>
