@@ -41,7 +41,7 @@ Currently focused on **Java, Spring Boot, system design, and AI engineering**.
 ### Backend & Architecture
 
 `Spring Boot` `Spring Security` `Hibernate/JPA`  
-`FastAPI` `REST APIs` `Microservices`  
+`FastAPI` `REST APIs` `Flyway`  
 `Apache Kafka` `Redis`
 
 ### AI Engineering
@@ -89,39 +89,36 @@ An AI-powered platform designed to trace specification deviations through their 
 
 ## PulseOps
 
-### Autonomous AI Infrastructure Monitoring Platform
+### Multi-Tenant Monitoring & Incident Management Platform
 
-**Java · Spring Boot · Kafka · PostgreSQL · Redis · React · Docker**
+**Java · Spring Boot · Kafka · PostgreSQL · Redis · React · Docker · AWS**
 
-An event-driven infrastructure monitoring platform designed to process telemetry from distributed agents.
+Agents push host metrics, server-side alert rules evaluate them over sliding windows, and incidents open, deduplicate and resolve themselves. [Live demo](https://pulseops.atlas-theproject.duckdns.org)
 
 **Highlights**
 
-- High-throughput Apache Kafka architecture
-- Real-time telemetry processing
-- AI-powered anomaly detection
-- Automated incident diagnosis
-- AI-generated post-mortem reports
-- Multi-tenant backend architecture
-- Redis caching
-- Spring Security authentication and authorization
+- Kafka ingestion with partition keys, consumer groups and a dead-letter topic
+- Exactly one active incident per service and rule, enforced by a PostgreSQL partial unique index
+- Composite index cut rule-window queries from 69.8 ms to 0.29 ms on 2M rows
+- Redis API-key cache and per-tenant rate limiting
+- Two stateless replicas behind nginx; 30/30 requests served during a failover test
+- Gemini root-cause suggestions and post-mortem drafts, kept off the critical path
+- 37 backend tests, including Testcontainers integration tests
 
 ---
 
-## Energy Autonomous UAV
+## UAV ISAC Scheduling (Research)
 
-### AI-Driven Communication Optimization
+### Learning MILP-Optimal Sensing & Communication Scheduling
 
-**Python · TensorFlow/Keras · AI · Wireless Communication**
+**Python · TensorFlow/Keras · MATLAB (MILP) · Numba**
 
-AI-assisted optimization framework for energy-autonomous UAV communication.
+A Conv3D-LSTM that imitates a MILP optimiser deciding, at each of 15 waypoints, whether a UAV senses, communicates or does both. [Repository](https://github.com/mahendraaravind13-creator/uav-isac-milp-cnn-lstm-)
 
-- CNN-based operating-mode classification
-- Communication / Sensing / Hybrid classification
-- **91.9% classification accuracy**
-- Simulation-dataset based model development
-- Research extended from ISAC work
-- Manuscript accepted for publication in IEEE Letters
+- 66K+ MILP-labelled trajectories (1M+ rows) from a randomised dataset generator
+- **92.9% per-waypoint test accuracy** on 60,690 unseen trajectories, vs 86.5% for a CNN baseline
+- Joint-mode recall raised from 41% to 75%
+- Manuscript prepared for submission to IEEE VTC
 
 ---
 
